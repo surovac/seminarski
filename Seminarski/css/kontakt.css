@@ -1,0 +1,52 @@
+body{
+  font-family: Arial,
+   Times;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin:0;
+
+  background-color: #116466;
+}
+
+/*Globalne*/
+
+.container{
+  margin:auto;
+  width: 80%;
+  overflow: hidden;
+}
+
+
+
+
+/*Heder*/
+
+header{
+  max-height: 300px;
+  border-bottom: #d1e8e2 3px solid;
+}
+
+header img{
+  width: 50px;
+  height: 50px;
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+  border: 3px solid #d1e8e2;
+  border-radius: 50%;
+}
+
+ header img:hover{
+  box-shadow: 0 0 5px 2px #ddd;
+}
+
+#glavni {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#glavni a{
+  color: #d1e8e2;
+}
